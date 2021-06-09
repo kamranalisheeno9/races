@@ -1,0 +1,122 @@
+/* ----- SCROLLBAR -------- */
+
+::-webkit-scrollbar {
+    width: 4px;
+}
+
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 0px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
+}
+
+
+.races-container{
+    background-image: url('../images/bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 390px;
+    height: 250px;
+}
+.buttons{
+    width: 100% !important;
+}
+.btn{
+    margin-top: 2px !important;
+    font-size: 10px !important;
+    background: linear-gradient(#e9dbdb, #979bd4);
+    font-weight: bold !important;
+    margin-left: 2px;
+    margin-right: 2px;
+    color: white;
+    line-height: 12px !important;
+    padding: 0px 15px !important;
+    align-self: center;
+    transition: 0.25s all linear;
+}
+.hideinfo{
+    display: none !important;
+}
+.btn:first-child,.btn:last-child{
+
+    padding-top: 7px !important;
+    padding-bottom: 7px !important;
+    font-size: 12px !important;
+}
+.btn:hover{
+    background: linear-gradient( #979bd4,#e9dbdb);
+
+
+}
+.info-container button{
+    margin-top: 2px;
+    color: white;
+    background-color: transparent !important;
+}
+.info-container h6{
+    margin-top: 2px;
+    color: white;
+}
+.dropdown{
+    color: black !important;
+    width: 200px !important;
+    text-align: center;
+    margin: 3% 22% 1% 22%  !important;
+    padding: 10px 10px !important;
+
+}
+.items {
+    display: block;
+    padding: 0px;
+    color: #212529;
+    width: 200px !important;
+    font-weight: bold !important;
+    background-color: rgba(255, 255, 255, 0.863);
+    list-style: none;
+    margin: 0 auto;
+    cursor: pointer;
+    min-height: fit-content;
+    max-height: 150px !important;
+    overflow-y: scroll;
+
+}
+
+.items li:hover{
+    color: gray;
+}
+
+.dropdown-menu{
+    padding: 0px !important;
+    font-size: 12px !important;
+}
+.test-race{
+    width: 90%;
+    margin: 4% auto !important;
+    justify-content: space-between;
+    text-align: center;
+}
+.test-col{
+    background-color: rgba(54, 54, 54, 0.829);
+    margin-bottom: 12px !important;
+    color: white;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    cursor: pointer;
+    font-weight:600;
+    transition: 0.25s all linear !important; 
+    border-radius: 5px;
+
+}
+.test-col:hover{
+    background-color: rgb(95, 95, 95);
+}
+.unregister{
+    padding: 15px;
+}
+.unregister:active{
+    color: rgb(110, 109, 109);
+}
